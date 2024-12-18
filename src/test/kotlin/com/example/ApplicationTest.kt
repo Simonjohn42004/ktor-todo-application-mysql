@@ -2,7 +2,6 @@ package com.example
 
 import com.example.data.model.ToDo
 import com.example.data.model.ToDoDraft
-import com.sun.tools.javac.comp.Todo
 import io.ktor.client.call.*
 import io.ktor.client.plugins.contentnegotiation.*
 import io.ktor.client.request.*
