@@ -32,4 +32,5 @@ dependencies {
     implementation(libs.mysql.connector)
     implementation(libs.ktorm.core)
     implementation(libs.ktorm.support.mysql)
+    testImplementation(libs.ktor.client.negotiation)
 }

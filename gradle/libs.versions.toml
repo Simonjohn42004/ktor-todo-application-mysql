@@ -18,6 +18,7 @@ kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version
 mysql-connector = { module = "com.mysql:mysql-connector-j", version.ref = "mysql-version" }
 ktorm-core = { module = "org.ktorm:ktorm-core", version.ref = "ktorm-version" }
 ktorm-support-mysql = { module = "org.ktorm:ktorm-support-mysql", version.ref = "ktorm-version" }
+ktor-client-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor-version" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin-version" }

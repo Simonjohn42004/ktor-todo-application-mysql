@@ -2,6 +2,7 @@ package com.example
 
 import com.example.data.model.ToDoDraft
 import com.example.data.repository.MySqlToDoRepository
+import com.example.data.repository.SampleToDoRepository
 import com.example.data.repository.ToDoRepository
 import io.ktor.http.*
 import io.ktor.server.application.*
@@ -14,7 +15,7 @@ fun main(args: Array<String>) {
 }
 
 fun Application.module() {
-    val repository: ToDoRepository = MySqlToDoRepository()
+    val repository: ToDoRepository = SampleToDoRepository()
     configureSerialization()
     configureMonitoring()
     configureRouting()
